@@ -12,3 +12,4 @@ headers = res[0].keys()
 table_data = [[brewery.get(header, '') for header in headers] for brewery in res]
 
 print(tabulate(table_data, headers=headers, tablefmt='grid'))
+print(tabulate(table_data, headers=headers, tablefmt='grid'))
